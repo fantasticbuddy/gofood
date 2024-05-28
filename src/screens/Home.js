@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Card from '../components/Card'
-// import Carousel from '../components/Carousel'
+import Carousel from '../components/Carousel'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 export default function Home() {
@@ -34,6 +34,7 @@ export default function Home() {
         <Navbar />
       </div>
       <div>
+        {/* <Carousel/> */}
         <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel">
 
           <div className="carousel-inner " id='carousel'>
@@ -44,13 +45,13 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item active" >
-              <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVyZ2VyJTIwOTAwKjcwMHxlbnwwfHwwfHx8MA%3D%3D" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?pastry" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://images.unsplash.com/photo-1608039783021-6116a558f0c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzdHJ5JTIwOTAwKjcwMHxlbnwwfHwwfHx8MA%3D%3D" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?barbeque" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://images.unsplash.com/photo-1476887334197-56adbf254e1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhc3RyeSUyMDkwMCo3MDB8ZW58MHx8MHx8fDA%3D" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
